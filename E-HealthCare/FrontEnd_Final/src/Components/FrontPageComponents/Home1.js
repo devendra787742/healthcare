@@ -1,25 +1,17 @@
 import React from "react";
+import Header from "./Header";
 import Middle from "./Middle";
 import Footer from "./Footer";
-import Header from "./Header";
-import "./Footer.css";
 import "./Home.css";
 
 const Home1 = () => {
   return (
-    <div className="home1">
-      <div className="row">
-        {" "}
-        <Header />
-      </div>
-      <div className="row">
-        {" "}
+    <div className="home-root">
+      <Header />
+      <main>
         <Middle />
-      </div>
-      <div className="row">
-        {" "}
-        <Footer />
-      </div>
+      </main>
+      <Footer />
     </div>
   );
 };

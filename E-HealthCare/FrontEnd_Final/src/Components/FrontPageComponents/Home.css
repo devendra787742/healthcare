@@ -1,5 +1,11 @@
-.home1{
-    display: flex;
-    flex-direction: column;
-    height: 100vh;
+.home-root {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  background-color: #070b12;
+  overflow-x: hidden;
+}
+
+.home-root main {
+  flex-grow: 1;
 }
